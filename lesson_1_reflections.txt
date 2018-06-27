@@ -1,0 +1,51 @@
+Course details:How to use Git and GitHub - Udacity
+
+
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+	Using tools like diff are less tedious than reading code manually
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	1. history of file is organised
+	2. can trouble shoot with past working versions
+	3. don't have to bother with a version naming convention
+	4. enables collaboration
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+	You can save the optimal amount of change in each commit.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+	When the files are interconnected, changes affect each other files. So each
+	file should be saved at the snapshot in time.
+
+How can you use the commands git log and git diff to view the history of
+files?
+
+	git log to find the commit that you are looking for, then git diff id_first
+	id_second to look at the specific changes made
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	When a version breaks something, you can roll back to a previous version
+	easily by using git-checkout. When you are not sure which version is the cause of
+	problems, you can revert to the different previous versions to find out which
+	ones work. Git-diff can be used to find specific code causing issues.
+
+Now that you have your workspace set up, what do you want to try using Git
+for?
+
+	Practice with examples in this course, then personal projects (set up
+	personal web page, computer back-up solution), and also open source projects
+	(especially pandas in python).
