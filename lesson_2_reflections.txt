@@ -24,6 +24,9 @@ organized? How would branches help?
 	the overhead of checking out back and forwards between versions. 
 
 How do the diagrams help you visualize the branch structure?
+	It shows the parents of each commit, and the sequence of parents that leads to
+	the initial commit, ie the sequence that shows in git log. Diagrams can also
+	show unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
